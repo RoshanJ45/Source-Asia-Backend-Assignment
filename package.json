@@ -1,0 +1,19 @@
+{
+  "name": "product-catalog-api",
+  "version": "1.0.0",
+  "description": "Product catalog API with media URL support",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node tests/api.test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
